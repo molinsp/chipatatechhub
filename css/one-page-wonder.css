@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: left;
-    background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQt_sITNSJa425loDyZesMRWhDX21Rcr7fgycINWU1js95k5uP4_w') no-repeat center center scroll;
+    background: url('/images/chipata.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,6 +21,7 @@ body {
 
 .headline {
     padding: 90px 0;
+    color: white;
 }
 
 .headline h1 {
