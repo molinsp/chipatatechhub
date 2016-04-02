@@ -56,6 +56,15 @@ footer {
     margin: 50px 0;
 }
 
+#navbar-logo {
+    width: 30px;  
+    margin-top: -5px;
+}
+
+.navbar {
+    border: 0px solid transparent;
+}
+
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;
