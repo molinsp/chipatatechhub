@@ -28,13 +28,7 @@
 }
 
 .contact {
-    margin-top: 50px;
+    display: block;
+    margin-top: 100px;
 }
 
-@media(max-width:768px){
-    .background {
-    background: url('../images/background.png') top center;
-    height: 100%;
-    width: 100%
-    }
-}
