@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <meta charset="utf-8">
@@ -9,18 +10,25 @@
     <meta name="author" content="">
 
     <title>Chipata Tech Hub</title>
-    
-    <link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/tech-hub.css" rel="stylesheet">
 
-</head>
-<body>
+    <!-- jQuery -->
+    <script src="js/jquery-1.10.2.min.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -33,7 +41,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img alt="Brand" src="images/logo_navbar_02.png" id="navbar-logo">
+                    <img alt="Brand" src="images/symbol-white-small.png" id="navbar-logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +59,7 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-					<li>
+                    <li>
                         <a href="portfolio.html">Portfolio</a>
                     </li>
                 </ul>
@@ -60,63 +68,96 @@
         </div>
         <!-- /.container -->
     </nav>
-    
- <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading; ">SERVICES</h2>
-                    <h3 class="section-subheading text-muted">A brief collection of what services we offer</h3>
-                </div>
+
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading; ">SERVICES</h2>
+                <h3 class="section-subheading text-muted">A brief collection of what services we offer</h3>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+        </div>
+        <!-- Services -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
-					<h4 class="service-heading">Website Creation</h4>
-                    <p class="text-muted">We make the very best of interactive websites in the eastern region</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <h4 class="service-heading">Website Creation</h4>
+                <p class="text-muted">We make the very best of interactive websites in the eastern region</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Supply and delivery</h4>
-                    <p class="text-muted">We also supply and deliver the highest quality performance computers and accessories.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <h4 class="service-heading">Supply and delivery</h4>
+                <p class="text-muted">We also supply and deliver the highest quality performance computers and accessories.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-sitemap fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Installation of network servers</h4>
-                    <p class="text-muted">We make your network dreams come true, we supply and install the best performing network equipment at a wallet favouring price.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <h4 class="service-heading">Installation of network servers</h4>
+                <p class="text-muted">We make your network dreams come true, we supply and install the best performing network equipment at a wallet favouring price.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Installation of WiFi networking</h4>
-                    <p class="text-muted">Dont be left out, join the trend.Install the very best performing WiFi adapters and improve wireless network range and speed, we supply and install these services.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <h4 class="service-heading">Installation of WiFi networking</h4>
+                <p class="text-muted">Dont be left out, join the trend.Install the very best performing WiFi adapters and improve wireless network range and speed, we supply and install these services.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-android fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Android Application Development</h4>
-                    <p class="text-muted">being in a modernising economy, it is important that you keep track of various business assets by having tailor made android apps take care of the burden for you. Check in with us to have your tailor made apps created.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
+                <h4 class="service-heading">Android Application Development</h4>
+                <p class="text-muted">being in a modernising economy, it is important that you keep track of various business assets by having tailor made android apps take care of the burden for you. Check in with us to have your tailor made apps created.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Java and Symbian app creation </h4>
-                    <p class="text-muted">personalise your phone with cheap and interactive java or symbian apps, speed up your business processes by using your hand-held companion to continue with your daily business deals with ease and simplicity. visit us to find out more.</p>
+                <h4 class="service-heading">Java and Symbian app creation </h4>
+                <p class="text-muted">personalise your phone with cheap and interactive java or symbian apps, speed up your business processes by using your hand-held companion to continue with your daily business deals with ease and simplicity. visit us to find out more.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <hr class="small">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="copyright">
+                        <span class="">Copyright &copy; Chipata Tech Hub 2016</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </footer>
+
 </body>
 
+</html>
