@@ -1,0 +1,39 @@
+/*!
+ Tech Hub Custom CSS
+ */
+html, body{
+  height:100%;
+}
+
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #F5F5F5;
+    color: #36A0FF;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
+
+#aboutus {
+    padding: 0 10% 0 10%;
+}
+
+@media only screen and (min-width: 768px){
+    h2#pagetitle {
+        font-size: 60px;
+    }
+
+    p#page_subtitle {
+        font-size: 25px;
+
+    }   
+}
+
