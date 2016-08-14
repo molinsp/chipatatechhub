@@ -1,5 +1,6 @@
 ---
-title: About Us
+title: AboutUs
+date: 2016-08-13 14:39:00 Z
 layout: index
 ---
 
@@ -15,5 +16,3 @@ layout: index
 <p>
     If you are interested in what we are doing or just want to meet our team, you are more than welcome to come for coffee or tea at our office!
 </p>
-
-    
