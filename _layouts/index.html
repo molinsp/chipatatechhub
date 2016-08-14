@@ -106,6 +106,9 @@
 
     <section class="container" id="aboutus">
        {{ content }} 
+       {{ for page in site.pages}} 
+         <li> {{page.title}} </li>
+       {{ endfor}}
     </section>
     <!-- .cd-main-content -->
 
