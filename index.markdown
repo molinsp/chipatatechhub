@@ -6,7 +6,7 @@ layout: index
 
 <h1> About us</h1>
 <p>
-The **Chipata** Tech Hub was started by a group of ambitious people trying to make a difference through technology. We want to create innovations that change how people work, helping people to become more efficient and deliver better services. We strongly believe ICT technologies will change everything, and we want to be the ones driving that change.
+The Chipata Tech Hub was started by a group of ambitious people trying to make a difference through technology. We want to create innovations that change how people work, helping people to become more efficient and deliver better services. We strongly believe ICT technologies will change everything, and we want to be the ones driving that change.
 </p>
 
 <p>
