@@ -11,6 +11,6 @@ collections:
 email: molinsp@gmail.com
 description: |
   CTH Website
-baseurl: ''
+baseurl: 
 url: http://chipata.tech
 github_username: molinsp
