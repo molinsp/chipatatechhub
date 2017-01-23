@@ -9,8 +9,9 @@ collections:
     title: Uploads
     output: true
 email: molinsp@gmail.com
-description: |
-  CTH Website
+description: 'CTH Website
+
+'
 baseurl: 
 url: http://chipata.tech
 github_username: molinsp
